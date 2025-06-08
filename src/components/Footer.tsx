@@ -3,12 +3,20 @@ import { Layers, Twitter, Facebook, Instagram, Linkedin, Github } from 'lucide-r
 
 const Footer: React.FC = () => {
   return (
+<<<<<<< HEAD
     <footer className="bg-gray-900 text-white pt-16 pb-8">
+=======
+    <footer className="bg-gray-900 dark:bg-gray-950 text-white pt-16 pb-8">
+>>>>>>> 97bfcc7 (Added the team functionality)
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-4">
+<<<<<<< HEAD
               <Layers className="h-8 w-8 text-blue-400" />
+=======
+              <Layers className="h-8 w-8 text-green-400" />
+>>>>>>> 97bfcc7 (Added the team functionality)
               <span className="ml-2 text-2xl font-bold">Coherent</span>
             </div>
             <p className="text-gray-400 mb-4">
